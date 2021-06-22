@@ -353,8 +353,13 @@ int main(int argc, char *argv[]){
 			case 'p':
 				flag_p = 1;
 				w_num = atoi(optarg);
+<<<<<<< HEAD
 				if(w_num < 1 || w_num > 10){
 					printf("Num of worker can be between 1 to 10\n");
+=======
+				if(w_num < 1 || w_num > 8){
+					printf("Num of worker can be between 1 to 8\n");
+>>>>>>> fd93744d0ca626a47d7d17768a67cac97207c3df
 					exit(0);
 				}
 		}
